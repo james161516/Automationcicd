@@ -32,7 +32,6 @@ public class LogintoGettr extends BaseTest {
 		TimelinePage timeline = ob.Login(username, "Indium@123");
 		String welcometext = timeline.loginsuccesstoast();
 		timeline.assertion(welcometext, username);
-System.out.println("Hello");
 
 	}
 
