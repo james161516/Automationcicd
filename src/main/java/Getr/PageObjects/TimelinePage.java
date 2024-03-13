@@ -1,17 +1,11 @@
 package Getr.PageObjects;
 
 import org.openqa.selenium.WebDriver;
-import static org.openqa.selenium.support.locators.RelativeLocator.*;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.locators.RelativeLocator;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.asserts.SoftAssert;
-
 import Getr.AbstractComponents.AbstractComponents;
 
 public class TimelinePage extends AbstractComponents{
